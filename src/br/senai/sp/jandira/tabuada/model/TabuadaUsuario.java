@@ -29,7 +29,7 @@ public class TabuadaUsuario {
 
     }
 
-    public void CalcularTabuada() {
+    public String[] CalcularTabuada() {
         int apoio = 0;
 
         if (multiplicadorFinal < multiplicadorInicial){
@@ -50,7 +50,8 @@ public class TabuadaUsuario {
 
         }
 
-        ExibirTabuada();
+         return tabuada;
+        //ExibirTabuada();
 
     }
 
